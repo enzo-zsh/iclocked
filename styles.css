@@ -49,21 +49,38 @@ p {
     object-fit: cover;
 }
 
-.watchface button {
+.buttons {
     margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+button.install, a.source {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #007bff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s;
-    align-self: center;
+    text-decoration: none;
+    text-align: center;
 }
 
-.watchface button:hover {
+button.install {
+    background-color: #007bff;
+}
+
+button.install:hover {
     background-color: #0056b3;
+}
+
+a.source {
+    background-color: #ff9800;
+}
+
+a.source:hover {
+    background-color: #e68900;
 }
 
 .watchface:hover {
