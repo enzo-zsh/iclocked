@@ -1,0 +1,21 @@
+{
+    "name": "iClocked",
+    "short_name": "iClocked",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "description": "A website for downloading custom watchfaces",
+    "icons": [
+      {
+        "src": "AppIcon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "AppIcon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
