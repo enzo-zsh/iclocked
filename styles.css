@@ -54,7 +54,7 @@ p {
     gap: 10px;
 }
 
-button.install, a.source {
+a.install, a.source {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
@@ -67,11 +67,11 @@ button.install, a.source {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-button.install {
+a.install {
     background-color: #007bff;
 }
 
-button.install:hover {
+a.install:hover {
     background-color: #0056b3;
 }
 
@@ -111,7 +111,7 @@ a.source:hover {
         gap: 5px;
     }
 
-    button.install, a.source {
+    a.install, a.source {
         padding: 5px 10px;
         font-size: 0.8em;
     }
