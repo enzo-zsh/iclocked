@@ -20,9 +20,14 @@ body {
 
 .title-background {
     background: url('image.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 100px 20px;
+    background-size: contain;
+    padding: 50px 20px;
     position: relative;
+    height: 300px; /* Adjust this to fit the image entirely */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-background::before {
@@ -32,7 +37,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
     z-index: 1;
 }
 
@@ -53,23 +58,13 @@ body {
 
 .container {
     text-align: center;
-    padding: 50px;
-}
-
-h1 {
-    margin-bottom: 0;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 1.2em;
+    padding: 20px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 20px;
 }
 
 .watchface {
@@ -139,7 +134,7 @@ a.source:hover {
 
 @media (max-width: 600px) {
     .grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 
