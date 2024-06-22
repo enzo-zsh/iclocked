@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,11 +20,9 @@ body {
 
 .title-background {
     background: url('image.jpg') no-repeat center center;
-    background-size: contain; /* Change 'cover' to 'contain' to fit the image within the container */
+    background-size: cover;
     padding: 100px 20px;
     position: relative;
-    width: 100%;
-    height: auto; /* Adjust height to auto for responsive design */
 }
 
 .title-background::before {
