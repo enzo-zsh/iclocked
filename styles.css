@@ -156,4 +156,9 @@ a.source:hover {
         padding: 5px 10px;
         font-size: 0.8em;
     }
+
+    .title-background {
+        background-size: contain; /* Ajustement de la taille de l'image pour les petits écrans */
+        padding: 50px 20px; /* Réduction du padding pour diminuer la taille de l'image */
+    }
 }
